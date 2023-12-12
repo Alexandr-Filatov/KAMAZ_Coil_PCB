@@ -550,10 +550,10 @@
     (uuid ec8008a5-2d1c-46e8-a572-d80b9dc438af)
   )
 
-  (global_label "C_OUT" (shape input) (at 130.81 115.57 180) (fields_autoplaced)
+  (global_label "C_OUT" (shape input) (at 96.52 115.57 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 0d04837b-51be-4420-af1d-6822f3df473b)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 121.9586 115.57 0)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 87.6686 115.57 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
@@ -571,10 +571,10 @@
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
-  (global_label "B_OUT" (shape input) (at 96.52 115.57 180) (fields_autoplaced)
+  (global_label "B_OUT" (shape input) (at 130.81 115.57 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 450ebf57-0135-4fcc-a6fc-1310e69ba98c)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 87.6686 115.57 0)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 121.9586 115.57 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
@@ -778,6 +778,30 @@
       (project "Плата обмоток"
         (path "/7abc0ce6-258d-434e-9c1a-83bc5738d31c"
           (reference "#PWR04") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 193.04 90.17 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 35e590f6-f6e3-4eee-ac73-37a4c68f74d2)
+    (property "Reference" "H4" (at 195.58 89.535 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "Value" "MountingHole" (at 195.58 92.075 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "Footprint" "MountingHole:MountingHole_3.2mm_M3" (at 193.04 90.17 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 193.04 90.17 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "Плата обмоток"
+        (path "/7abc0ce6-258d-434e-9c1a-83bc5738d31c"
+          (reference "H4") (unit 1)
         )
       )
     )
@@ -1224,6 +1248,30 @@
     )
   )
 
+  (symbol (lib_id "Mechanical:MountingHole") (at 193.04 85.09 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 933453c5-a6d6-4d52-8cfb-6944ae1320f6)
+    (property "Reference" "H3" (at 195.58 84.455 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "Value" "MountingHole" (at 195.58 86.995 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "Footprint" "MountingHole:MountingHole_3.2mm_M3" (at 193.04 85.09 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 193.04 85.09 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "Плата обмоток"
+        (path "/7abc0ce6-258d-434e-9c1a-83bc5738d31c"
+          (reference "H3") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "Connector_Generic:Conn_02x02_Odd_Even") (at 180.34 44.45 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a7064026-3f5a-4be1-aece-33d4ad2f3115)
@@ -1443,6 +1491,30 @@
       (project "Плата обмоток"
         (path "/7abc0ce6-258d-434e-9c1a-83bc5738d31c"
           (reference "J16") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 193.04 80.01 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid f5ddf556-4534-4197-abe4-f2d74ca053ee)
+    (property "Reference" "H2" (at 195.58 79.375 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "Value" "MountingHole" (at 195.58 81.915 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "Footprint" "MountingHole:MountingHole_3.2mm_M3" (at 193.04 80.01 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 193.04 80.01 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "Плата обмоток"
+        (path "/7abc0ce6-258d-434e-9c1a-83bc5738d31c"
+          (reference "H2") (unit 1)
         )
       )
     )
