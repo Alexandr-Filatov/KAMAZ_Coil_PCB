@@ -13,7 +13,7 @@
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 46b6ae93-73d4-4f82-a5cc-328d219b536c)
   )
-  (pad "" np_thru_hole circle (at 0 0) (size 3 3) (drill 2) (layers "F&B.Cu" "*.Mask") (tstamp 059d80f9-b60d-4ad6-aae3-764550f6078a))
+  (pad "" np_thru_hole circle (at 0 0) (size 2 2) (drill 2) (layers "*.Mask") (tstamp 059d80f9-b60d-4ad6-aae3-764550f6078a))
   (pad "1" smd roundrect (at 0 6.604 90) (size 5 1.524) (layers "F.Cu" "F.Mask") (roundrect_rratio 0.25)
     (thermal_bridge_angle 45) (tstamp be3cbfba-e3d4-41b1-99f1-bccdb34628b0))
 )
