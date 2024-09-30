@@ -1,22 +1,98 @@
-(footprint "KFS2-M3" (version 20221018) (generator pcbnew)
-  (layer "F.Cu")
-  (attr through_hole)
-  (fp_text reference "REF**" (at 0 -6.556 unlocked) (layer "F.SilkS")
-      (effects (font (size 1 1) (thickness 0.1)))
-    (tstamp dc19b6f3-e208-401f-ae30-4516081793a0)
-  )
-  (fp_text value "KFS2-M3" (at 0 -5.056 unlocked) (layer "F.Fab")
-      (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp 3c25ce86-0dec-4ac5-8712-838f928a5c8e)
-  )
-  (fp_text user "${REFERENCE}" (at 0 -3.556 unlocked) (layer "F.Fab")
-      (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp dee641dd-e80c-4f5d-b380-038698e12d50)
-  )
-  (pad "1" thru_hole circle (at 0 0) (size 7 7) (drill 4.68) (layers "*.Cu" "*.Mask") (tstamp dfd334e9-373c-45e1-b318-ab739e72e868))
-  (model "C:/Users/alexa/Desktop/Проекты/КАМАЗ/Плата обмоток/KAMAZ_Coil_PCB/3D модели/KF2-M3-ET.stp"
-    (offset (xyz 0 0 -3))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 -90 0))
-  )
+(footprint "KFS2-M3"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -6.556 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "dc19b6f3-e208-401f-ae30-4516081793a0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "KFS2-M3"
+		(at 0 -5.056 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "3c25ce86-0dec-4ac5-8712-838f928a5c8e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "75f2caaf-1732-4f35-86e3-59de97c84d45")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "eb8abc94-1d09-4b9c-b91a-f78a99a00fb0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ce0e5e1a-1c40-450b-9282-b7bcec0735d3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_text user "${REFERENCE}"
+		(at 0 -3.556 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "dee641dd-e80c-4f5d-b380-038698e12d50")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 7 7)
+		(drill 4.68)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "dfd334e9-373c-45e1-b318-ab739e72e868")
+	)
+	(model "/home/alexandr/Проекты/KAMAZ_Coil_PCB/3D модели/KF2-M3-ET.stp"
+		(offset
+			(xyz 0 0 -3)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 -90 0)
+		)
+	)
 )
