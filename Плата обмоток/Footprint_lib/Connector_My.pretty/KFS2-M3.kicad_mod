@@ -79,20 +79,20 @@
 	(pad "1" thru_hole circle
 		(at 0 0)
 		(size 7 7)
-		(drill 4.68)
+		(drill 4.22)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "dfd334e9-373c-45e1-b318-ab739e72e868")
 	)
 	(model "/home/alexandr/Проекты/KAMAZ_Coil_PCB/3D модели/KF2-M3-ET.stp"
 		(offset
-			(xyz 0 0 -3)
+			(xyz 0 0 1.5)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 -90 0)
+			(xyz 0 90 0)
 		)
 	)
 )
