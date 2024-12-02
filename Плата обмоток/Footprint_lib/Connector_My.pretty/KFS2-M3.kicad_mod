@@ -92,7 +92,18 @@
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 90 0)
+			(xyz 0 -90 0)
+		)
+	)
+	(model "C:/Users/alexa/Desktop/Проекты/КАМАЗ/Плата обмоток/KAMAZ_Coil_PCB/3D модели/KF2-M3-ET.stp"
+		(offset
+			(xyz 0 0 -3)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 -90 0)
 		)
 	)
 )

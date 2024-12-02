@@ -5,7 +5,7 @@
 	(uuid "2db75b33-fc68-4346-8182-f2f626e019f0")
 	(paper "A4")
 	(title_block
-		(comment 1 "МПСТ.76721.758764.04.Э3.М")
+		(comment 1 "МПСТ.6319.758764.04.Э3.М")
 	)
 	(lib_symbols
 		(symbol "4900:4900"
@@ -1236,6 +1236,7 @@
 		(at 60.96 49.53 0)
 		(effects
 			(font
+				(face "GOST Common")
 				(size 3.5 3.5)
 			)
 			(justify left bottom)
@@ -1247,6 +1248,7 @@
 		(at 171.45 50.8 0)
 		(effects
 			(font
+				(face "GOST Common")
 				(size 3.5 3.5)
 			)
 			(justify left bottom)

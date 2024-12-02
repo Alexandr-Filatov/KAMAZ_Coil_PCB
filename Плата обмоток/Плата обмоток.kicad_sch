@@ -7,7 +7,7 @@
 	(title_block
 		(title "Узел соединительный")
 		(company "Московский Политех")
-		(comment 1 "МПСТ.76721.758764.04.Э3.М")
+		(comment 1 "МПСТ.6319.758764.04.Э3.М")
 		(comment 2 "Филатов")
 		(comment 3 "Нестеров")
 		(comment 4 "Келлер")
@@ -20,6 +20,7 @@
 		(at 195.58 189.23 0)
 		(effects
 			(font
+				(face "GOST Common")
 				(size 2.5 2.5)
 			)
 			(justify left bottom)
@@ -31,6 +32,7 @@
 		(at 191.77 185.42 0)
 		(effects
 			(font
+				(face "GOST Common")
 				(size 2.5 2.5)
 			)
 			(justify left bottom)

@@ -5,7 +5,7 @@
 	(uuid "9dfd8b89-baca-4267-a92d-90fd5852b5a4")
 	(paper "A4")
 	(title_block
-		(comment 1 "МПСТ.76721.758764.04.Э3.М")
+		(comment 1 "МПСТ.6319.758764.04.Э3.М")
 	)
 	(lib_symbols)
 	(polyline
@@ -20,7 +20,7 @@
 	)
 	(polyline
 		(pts
-			(xy 85.09 146.05) (xy 99.06 146.05)
+			(xy 85.725 119.38) (xy 99.695 119.38)
 		)
 		(stroke
 			(width 0)
@@ -50,27 +50,7 @@
 	)
 	(polyline
 		(pts
-			(xy 85.09 115.57) (xy 95.25 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8a95b30e-1ba4-4950-a1a6-7c2e50a6d748")
-	)
-	(polyline
-		(pts
-			(xy 85.09 119.38) (xy 95.25 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "90f5984a-d58e-469a-8396-0afe86333677")
-	)
-	(polyline
-		(pts
-			(xy 85.09 153.67) (xy 99.06 153.67)
+			(xy 85.725 127) (xy 99.695 127)
 		)
 		(stroke
 			(width 0)
@@ -90,7 +70,7 @@
 	)
 	(polyline
 		(pts
-			(xy 85.09 161.29) (xy 99.06 161.29)
+			(xy 85.725 134.62) (xy 99.695 134.62)
 		)
 		(stroke
 			(width 0)
@@ -100,7 +80,7 @@
 	)
 	(polyline
 		(pts
-			(xy 85.09 157.48) (xy 99.06 157.48)
+			(xy 85.725 130.81) (xy 99.695 130.81)
 		)
 		(stroke
 			(width 0)
@@ -110,7 +90,7 @@
 	)
 	(polyline
 		(pts
-			(xy 85.09 149.86) (xy 99.06 149.86)
+			(xy 85.725 123.19) (xy 99.695 123.19)
 		)
 		(stroke
 			(width 0)
@@ -120,7 +100,7 @@
 	)
 	(polyline
 		(pts
-			(xy 85.09 165.1) (xy 99.06 165.1)
+			(xy 85.725 138.43) (xy 99.695 138.43)
 		)
 		(stroke
 			(width 0)
@@ -130,7 +110,7 @@
 	)
 	(rectangle
 		(start 232.41 76.2)
-		(end 270.51 125.73)
+		(end 270.51 132.08)
 		(stroke
 			(width 0)
 			(type default)
@@ -142,7 +122,7 @@
 	)
 	(rectangle
 		(start 163.83 76.2)
-		(end 201.93 125.73)
+		(end 201.93 132.08)
 		(stroke
 			(width 0)
 			(type default)
@@ -153,8 +133,8 @@
 		(uuid 3dbe2dd7-dd6f-4684-9904-255752f3d105)
 	)
 	(rectangle
-		(start 114.3 128.27)
-		(end 152.4 166.37)
+		(start 114.935 101.6)
+		(end 153.035 139.7)
 		(stroke
 			(width 0)
 			(type default)
@@ -189,8 +169,8 @@
 		(uuid 9302c8e1-9cb4-45df-b3d5-e5ede77d02e8)
 	)
 	(rectangle
-		(start 31.75 128.27)
-		(end 69.85 166.37)
+		(start 32.385 101.6)
+		(end 70.485 139.7)
 		(stroke
 			(width 0)
 			(type default)
@@ -211,30 +191,6 @@
 			(type none)
 		)
 		(uuid acddf3b7-0196-4f75-81fa-caaf6aed67fe)
-	)
-	(rectangle
-		(start 31.75 97.79)
-		(end 69.85 120.65)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid b2b3cf21-407c-440f-bcaa-10ab07ecc889)
-	)
-	(rectangle
-		(start 110.49 97.79)
-		(end 149.86 120.65)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid b62b6900-3070-4f01-bf56-8f56e1b744d2)
 	)
 	(rectangle
 		(start 31.75 36.83)
@@ -274,7 +230,7 @@
 	)
 	(text_box "Цепь"
 		(exclude_from_sim no)
-		(at 40.64 139.7 0)
+		(at 41.275 113.03 0)
 		(size 29.21 3.81)
 		(stroke
 			(width 0)
@@ -291,28 +247,9 @@
 		)
 		(uuid "010f2c4e-2ab9-4e43-a114-14f9575ecf0c")
 	)
-	(text_box "PTC_Coil_C"
-		(exclude_from_sim no)
-		(at 40.64 113.03 0)
-		(size 29.21 3.81)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "GOST Common")
-				(size 2.5 2.5)
-			)
-		)
-		(uuid "03fc80da-ec8b-43be-a0f5-55ec5a2d0845")
-	)
 	(text_box "A_OUT"
 		(exclude_from_sim no)
-		(at 40.64 158.75 0)
+		(at 41.275 132.08 0)
 		(size 29.21 3.81)
 		(stroke
 			(width 0)
@@ -331,7 +268,7 @@
 	)
 	(text_box "J2"
 		(exclude_from_sim no)
-		(at 201.93 114.3 0)
+		(at 201.93 118.11 0)
 		(size 15.24 3.81)
 		(stroke
 			(width 0)
@@ -349,7 +286,7 @@
 	)
 	(text_box "J11"
 		(exclude_from_sim no)
-		(at 217.17 121.92 0)
+		(at 217.17 125.73 0)
 		(size 15.24 3.81)
 		(stroke
 			(width 0)
@@ -367,7 +304,7 @@
 	)
 	(text_box "J18"
 		(exclude_from_sim no)
-		(at 69.85 162.56 0)
+		(at 70.485 135.89 0)
 		(size 15.24 3.81)
 		(stroke
 			(width 0)
@@ -401,25 +338,6 @@
 			)
 		)
 		(uuid "1183de5e-78d5-4061-8d48-eef80ecc5445")
-	)
-	(text_box "GNDA"
-		(exclude_from_sim no)
-		(at 40.64 116.84 0)
-		(size 29.21 3.81)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "GOST Common")
-				(size 2.5 2.5)
-			)
-		)
-		(uuid "15795453-f879-4fb3-b5f7-76fa2d7b8910")
 	)
 	(text_box "J11"
 		(exclude_from_sim no)
@@ -478,7 +396,7 @@
 	)
 	(text_box "Цепь"
 		(exclude_from_sim no)
-		(at 114.3 139.7 0)
+		(at 114.935 113.03 0)
 		(size 29.21 3.81)
 		(stroke
 			(width 0)
@@ -497,7 +415,7 @@
 	)
 	(text_box "U1"
 		(exclude_from_sim no)
-		(at 114.3 162.56 0)
+		(at 114.935 135.89 0)
 		(size 29.21 3.81)
 		(stroke
 			(width 0)
@@ -534,7 +452,7 @@
 	)
 	(text_box "C_OUT"
 		(exclude_from_sim no)
-		(at 232.41 114.3 0)
+		(at 232.41 118.11 0)
 		(size 29.21 3.81)
 		(stroke
 			(width 0)
@@ -588,9 +506,9 @@
 		)
 		(uuid "2ba0aa44-afc2-48f3-b348-2d284c6da670")
 	)
-	(text_box "J7"
+	(text_box "J15"
 		(exclude_from_sim no)
-		(at 69.85 151.13 0)
+		(at 70.485 124.46 0)
 		(size 15.24 3.81)
 		(stroke
 			(width 0)
@@ -645,7 +563,7 @@
 	)
 	(text_box "С_OUT"
 		(exclude_from_sim no)
-		(at 40.64 147.32 0)
+		(at 41.275 120.65 0)
 		(size 29.21 3.81)
 		(stroke
 			(width 0)
@@ -680,9 +598,9 @@
 		)
 		(uuid "353c2f20-5c00-43ac-a1e7-839cb54c49b2")
 	)
-	(text_box "J17"
+	(text_box "J18\n"
 		(exclude_from_sim no)
-		(at 69.85 158.75 0)
+		(at 70.485 132.08 0)
 		(size 15.24 3.81)
 		(stroke
 			(width 0)
@@ -700,7 +618,7 @@
 	)
 	(text_box "C_OUT"
 		(exclude_from_sim no)
-		(at 172.72 114.3 0)
+		(at 172.72 118.11 0)
 		(size 29.21 3.81)
 		(stroke
 			(width 0)
@@ -719,7 +637,7 @@
 	)
 	(text_box "Конт"
 		(exclude_from_sim no)
-		(at 99.06 139.7 0)
+		(at 99.695 113.03 0)
 		(size 15.24 3.81)
 		(stroke
 			(width 0)
@@ -737,7 +655,7 @@
 	)
 	(text_box "A_OUT"
 		(exclude_from_sim no)
-		(at 40.64 162.56 0)
+		(at 41.275 135.89 0)
 		(size 29.21 3.81)
 		(stroke
 			(width 0)
@@ -756,7 +674,7 @@
 	)
 	(text_box "С_OUT"
 		(exclude_from_sim no)
-		(at 40.64 143.51 0)
+		(at 41.275 116.84 0)
 		(size 29.21 3.81)
 		(stroke
 			(width 0)
@@ -794,7 +712,7 @@
 	)
 	(text_box "C_OUT"
 		(exclude_from_sim no)
-		(at 172.72 118.11 0)
+		(at 172.72 121.92 0)
 		(size 29.21 3.81)
 		(stroke
 			(width 0)
@@ -832,7 +750,7 @@
 	)
 	(text_box "J9"
 		(exclude_from_sim no)
-		(at 201.93 118.11 0)
+		(at 201.93 121.92 0)
 		(size 15.24 3.81)
 		(stroke
 			(width 0)
@@ -847,24 +765,6 @@
 			)
 		)
 		(uuid "3e6d1c67-03b3-4909-9367-7a5b994ec485")
-	)
-	(text_box "J19:1"
-		(exclude_from_sim no)
-		(at 69.85 113.03 0)
-		(size 15.24 3.81)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 2.5 2.5)
-			)
-		)
-		(uuid "413a04e4-d474-47d2-87b0-9af67b23610f")
 	)
 	(text_box "2"
 		(exclude_from_sim no)
@@ -922,43 +822,6 @@
 		)
 		(uuid "4782632c-4716-4a37-bf52-5b68cbe007e4")
 	)
-	(text_box "Конт"
-		(exclude_from_sim no)
-		(at 95.25 109.22 0)
-		(size 15.24 3.81)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 2.5 2.5)
-			)
-		)
-		(uuid "4939c8db-6268-4dcb-bfcf-41f85d871f25")
-	)
-	(text_box "GNDA"
-		(exclude_from_sim no)
-		(at 110.49 116.84 0)
-		(size 29.21 3.81)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "GOST Common")
-				(size 2.5 2.5)
-			)
-		)
-		(uuid "4ccc480e-9d92-4d37-a8aa-dc79a68cab3d")
-	)
 	(text_box "PTC_Coil_B"
 		(exclude_from_sim no)
 		(at 110.49 82.55 0)
@@ -980,7 +843,7 @@
 	)
 	(text_box "J10\n"
 		(exclude_from_sim no)
-		(at 217.17 118.11 0)
+		(at 217.17 121.92 0)
 		(size 15.24 3.81)
 		(stroke
 			(width 0)
@@ -1015,9 +878,9 @@
 		)
 		(uuid "4f95a5d1-db21-4ced-a337-87f1fae93cf5")
 	)
-	(text_box "J4:2"
+	(text_box "J14:2"
 		(exclude_from_sim no)
-		(at 201.93 63.5 0)
+		(at 201.93 59.69 0)
 		(size 15.24 3.81)
 		(stroke
 			(width 0)
@@ -1069,24 +932,6 @@
 		)
 		(uuid "53107e8e-4088-4a50-a1e7-25ff4c9a30b4")
 	)
-	(text_box "Конт"
-		(exclude_from_sim no)
-		(at 69.85 109.22 0)
-		(size 15.24 3.81)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 2.5 2.5)
-			)
-		)
-		(uuid "542bb962-bba6-48c6-95a6-3a592848ba1e")
-	)
 	(text_box "B_OUT"
 		(exclude_from_sim no)
 		(at 232.41 110.49 0)
@@ -1127,7 +972,7 @@
 	)
 	(text_box "V2"
 		(exclude_from_sim no)
-		(at 114.3 158.75 0)
+		(at 114.935 132.08 0)
 		(size 29.21 3.81)
 		(stroke
 			(width 0)
@@ -1184,7 +1029,7 @@
 	)
 	(text_box "Конт"
 		(exclude_from_sim no)
-		(at 69.85 139.7 0)
+		(at 70.485 113.03 0)
 		(size 15.24 3.81)
 		(stroke
 			(width 0)
@@ -1238,10 +1083,10 @@
 		)
 		(uuid "654a3ad6-3cbd-4f2d-9b34-929d6a3a2de9")
 	)
-	(text_box "1"
+	(text_box "B_OUT"
 		(exclude_from_sim no)
-		(at 95.25 113.03 0)
-		(size 15.24 3.81)
+		(at 172.72 114.3 0)
+		(size 29.21 3.81)
 		(stroke
 			(width 0)
 			(type default)
@@ -1251,14 +1096,15 @@
 		)
 		(effects
 			(font
+				(face "GOST Common")
 				(size 2.5 2.5)
 			)
 		)
-		(uuid "68eb4408-548e-4f28-bf91-63c8f3166c3b")
+		(uuid "65b339a8-60a7-46a4-b5ea-84e2b22ae6d9")
 	)
 	(text_box "2"
 		(exclude_from_sim no)
-		(at 99.06 147.32 0)
+		(at 99.695 120.65 0)
 		(size 15.24 3.81)
 		(stroke
 			(width 0)
@@ -1276,7 +1122,7 @@
 	)
 	(text_box "J15"
 		(exclude_from_sim no)
-		(at 69.85 154.94 0)
+		(at 70.485 128.27 0)
 		(size 15.24 3.81)
 		(stroke
 			(width 0)
@@ -1292,26 +1138,7 @@
 		)
 		(uuid "6e08c645-3821-46a8-b5b5-f4c89bafc195")
 	)
-	(text_box "PTC_Coil_C"
-		(exclude_from_sim no)
-		(at 110.49 113.03 0)
-		(size 29.21 3.81)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "GOST Common")
-				(size 2.5 2.5)
-			)
-		)
-		(uuid "6e14c83a-be9b-4c22-b589-a268185e32c9")
-	)
-	(text_box "J14:2"
+	(text_box "J20"
 		(exclude_from_sim no)
 		(at 69.85 55.88 0)
 		(size 15.24 3.81)
@@ -1403,9 +1230,9 @@
 		)
 		(uuid "7521bcbb-9aa6-49eb-af77-78585619ad66")
 	)
-	(text_box "J19:2"
+	(text_box "J4\n"
 		(exclude_from_sim no)
-		(at 69.85 116.84 0)
+		(at 217.17 114.3 0)
 		(size 15.24 3.81)
 		(stroke
 			(width 0)
@@ -1419,11 +1246,11 @@
 				(size 2.5 2.5)
 			)
 		)
-		(uuid "7654752b-57e3-4a28-857a-a96447cc1286")
+		(uuid "76082c2e-ce84-4c06-aa2b-fe14707dbab9")
 	)
 	(text_box "C_OUT"
 		(exclude_from_sim no)
-		(at 232.41 118.11 0)
+		(at 232.41 121.92 0)
 		(size 29.21 3.81)
 		(stroke
 			(width 0)
@@ -1461,7 +1288,7 @@
 	)
 	(text_box "C_OUT"
 		(exclude_from_sim no)
-		(at 232.41 121.92 0)
+		(at 232.41 125.73 0)
 		(size 29.21 3.81)
 		(stroke
 			(width 0)
@@ -1480,7 +1307,7 @@
 	)
 	(text_box "U2"
 		(exclude_from_sim no)
-		(at 114.3 147.32 0)
+		(at 114.935 120.65 0)
 		(size 29.21 3.81)
 		(stroke
 			(width 0)
@@ -1499,7 +1326,7 @@
 	)
 	(text_box "6"
 		(exclude_from_sim no)
-		(at 99.06 151.13 0)
+		(at 99.695 124.46 0)
 		(size 15.24 3.81)
 		(stroke
 			(width 0)
@@ -1515,7 +1342,7 @@
 		)
 		(uuid "7fb94c68-73bd-4006-9108-f7bce91bc372")
 	)
-	(text_box "J4:2"
+	(text_box "J14:3"
 		(exclude_from_sim no)
 		(at 201.93 55.88 0)
 		(size 15.24 3.81)
@@ -1533,9 +1360,9 @@
 		)
 		(uuid "7fd91db3-9723-4ea8-98a6-dab9de2af55b")
 	)
-	(text_box "J13\n"
+	(text_box "J12\n"
 		(exclude_from_sim no)
-		(at 201.93 121.92 0)
+		(at 201.93 125.73 0)
 		(size 15.24 3.81)
 		(stroke
 			(width 0)
@@ -1624,25 +1451,6 @@
 		)
 		(uuid "87bd6de0-33cf-4636-a47c-5997f0e32f2c")
 	)
-	(text_box "PTC_Coil_С"
-		(exclude_from_sim no)
-		(at 232.41 59.69 0)
-		(size 29.21 3.81)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "GOST Common")
-				(size 2.5 2.5)
-			)
-		)
-		(uuid "88efbb04-7eba-4f28-8f37-a26ef3e82cf2")
-	)
 	(text_box "Цепь"
 		(exclude_from_sim no)
 		(at 232.41 48.26 0)
@@ -1662,47 +1470,9 @@
 		)
 		(uuid "8a8db876-5d62-4757-bca7-827308e6815b")
 	)
-	(text_box "Цепь"
-		(exclude_from_sim no)
-		(at 40.64 109.22 0)
-		(size 29.21 3.81)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "GOST Common")
-				(size 2.5 2.5)
-			)
-		)
-		(uuid "8da8cafa-cc5d-43f6-b594-0e82265472f7")
-	)
-	(text_box "Цепь"
-		(exclude_from_sim no)
-		(at 110.49 109.22 0)
-		(size 29.21 3.81)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "GOST Common")
-				(size 2.5 2.5)
-			)
-		)
-		(uuid "8e89def4-cb91-4e02-b4b0-509b132b464c")
-	)
 	(text_box "3"
 		(exclude_from_sim no)
-		(at 99.06 154.94 0)
+		(at 99.695 128.27 0)
 		(size 15.24 3.81)
 		(stroke
 			(width 0)
@@ -1774,7 +1544,7 @@
 		)
 		(uuid "96eb6d57-0f79-47b3-89df-cb09aae58220")
 	)
-	(text_box "J14:1"
+	(text_box "J4"
 		(exclude_from_sim no)
 		(at 69.85 52.07 0)
 		(size 15.24 3.81)
@@ -1812,7 +1582,7 @@
 	)
 	(text_box "PTC_Coil_B"
 		(exclude_from_sim no)
-		(at 172.72 63.5 0)
+		(at 172.72 59.69 0)
 		(size 29.21 3.81)
 		(stroke
 			(width 0)
@@ -1831,7 +1601,7 @@
 	)
 	(text_box "W2"
 		(exclude_from_sim no)
-		(at 114.3 151.13 0)
+		(at 114.935 124.46 0)
 		(size 29.21 3.81)
 		(stroke
 			(width 0)
@@ -1906,7 +1676,7 @@
 	)
 	(text_box "B_OUT"
 		(exclude_from_sim no)
-		(at 40.64 154.94 0)
+		(at 41.275 128.27 0)
 		(size 29.21 3.81)
 		(stroke
 			(width 0)
@@ -1925,7 +1695,7 @@
 	)
 	(text_box "4"
 		(exclude_from_sim no)
-		(at 99.06 158.75 0)
+		(at 99.695 132.08 0)
 		(size 15.24 3.81)
 		(stroke
 			(width 0)
@@ -1980,7 +1750,7 @@
 	)
 	(text_box "J8:2"
 		(exclude_from_sim no)
-		(at 217.17 63.5 0)
+		(at 217.17 59.69 0)
 		(size 15.24 3.81)
 		(stroke
 			(width 0)
@@ -1998,7 +1768,7 @@
 	)
 	(text_box "J7"
 		(exclude_from_sim no)
-		(at 217.17 114.3 0)
+		(at 217.17 118.11 0)
 		(size 15.24 3.81)
 		(stroke
 			(width 0)
@@ -2016,7 +1786,7 @@
 	)
 	(text_box "B_OUT"
 		(exclude_from_sim no)
-		(at 40.64 151.13 0)
+		(at 41.275 124.46 0)
 		(size 29.21 3.81)
 		(stroke
 			(width 0)
@@ -2035,7 +1805,7 @@
 	)
 	(text_box "C_OUT"
 		(exclude_from_sim no)
-		(at 172.72 121.92 0)
+		(at 172.72 125.73 0)
 		(size 29.21 3.81)
 		(stroke
 			(width 0)
@@ -2107,9 +1877,9 @@
 		)
 		(uuid "c3d99850-803a-4aa2-9a0d-8cf9dc043ef9")
 	)
-	(text_box "PTC_Coil_С"
+	(text_box "B_OUT"
 		(exclude_from_sim no)
-		(at 172.72 59.69 0)
+		(at 232.41 114.3 0)
 		(size 29.21 3.81)
 		(stroke
 			(width 0)
@@ -2124,29 +1894,11 @@
 				(size 2.5 2.5)
 			)
 		)
-		(uuid "c3f04222-4d24-4f98-ba3c-838bc0eeb45b")
-	)
-	(text_box "J4:1"
-		(exclude_from_sim no)
-		(at 201.93 59.69 0)
-		(size 15.24 3.81)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 2.5 2.5)
-			)
-		)
-		(uuid "c63640c9-9d90-40a0-a59a-39a66bdef195")
+		(uuid "c7080354-4fb2-460a-92ba-28e07657d1c8")
 	)
 	(text_box "W1"
 		(exclude_from_sim no)
-		(at 114.3 143.51 0)
+		(at 114.935 116.84 0)
 		(size 29.21 3.81)
 		(stroke
 			(width 0)
@@ -2165,7 +1917,7 @@
 	)
 	(text_box "5"
 		(exclude_from_sim no)
-		(at 99.06 143.51 0)
+		(at 99.695 116.84 0)
 		(size 15.24 3.81)
 		(stroke
 			(width 0)
@@ -2200,7 +1952,7 @@
 		)
 		(uuid "d51c34f4-a60a-4659-a9c5-30241e3c9bc6")
 	)
-	(text_box "J16:1"
+	(text_box "J19\n"
 		(exclude_from_sim no)
 		(at 69.85 82.55 0)
 		(size 15.24 3.81)
@@ -2236,7 +1988,7 @@
 		)
 		(uuid "dc78268d-7abb-4e56-83d8-ea570b1f6835")
 	)
-	(text_box "J8:2"
+	(text_box "J8:3"
 		(exclude_from_sim no)
 		(at 217.17 55.88 0)
 		(size 15.24 3.81)
@@ -2256,7 +2008,7 @@
 	)
 	(text_box "PTC_Coil_B"
 		(exclude_from_sim no)
-		(at 232.41 63.5 0)
+		(at 232.41 59.69 0)
 		(size 29.21 3.81)
 		(stroke
 			(width 0)
@@ -2273,25 +2025,7 @@
 		)
 		(uuid "e2427c4f-25b0-4af4-a272-739ddfedcb53")
 	)
-	(text_box "2"
-		(exclude_from_sim no)
-		(at 95.25 116.84 0)
-		(size 15.24 3.81)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 2.5 2.5)
-			)
-		)
-		(uuid "e2666455-6ae0-40a2-b49a-85330d39375b")
-	)
-	(text_box "J4:1"
+	(text_box "J14:1"
 		(exclude_from_sim no)
 		(at 201.93 52.07 0)
 		(size 15.24 3.81)
@@ -2308,24 +2042,6 @@
 			)
 		)
 		(uuid "e2b030dc-ee90-402c-96b6-59c9853f4058")
-	)
-	(text_box "J8:1"
-		(exclude_from_sim no)
-		(at 217.17 59.69 0)
-		(size 15.24 3.81)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 2.5 2.5)
-			)
-		)
-		(uuid "e3ba78a3-8b9b-4b6b-8bd4-0eaa93e66365")
 	)
 	(text_box "GNDA"
 		(exclude_from_sim no)
@@ -2385,7 +2101,7 @@
 	)
 	(text_box "J6"
 		(exclude_from_sim no)
-		(at 69.85 147.32 0)
+		(at 70.485 120.65 0)
 		(size 15.24 3.81)
 		(stroke
 			(width 0)
@@ -2440,7 +2156,7 @@
 	)
 	(text_box "1"
 		(exclude_from_sim no)
-		(at 99.06 162.56 0)
+		(at 99.695 135.89 0)
 		(size 15.24 3.81)
 		(stroke
 			(width 0)
@@ -2458,7 +2174,7 @@
 	)
 	(text_box "V1"
 		(exclude_from_sim no)
-		(at 114.3 154.94 0)
+		(at 114.935 128.27 0)
 		(size 29.21 3.81)
 		(stroke
 			(width 0)
@@ -2492,6 +2208,24 @@
 			)
 		)
 		(uuid "f567deab-b9f2-48bb-ad4c-ef247665a993")
+	)
+	(text_box "J16"
+		(exclude_from_sim no)
+		(at 201.93 114.3 0)
+		(size 15.24 3.81)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+		)
+		(uuid "f6aca656-ce9a-43f3-8e74-279e7af51a8e")
 	)
 	(text_box "Конт"
 		(exclude_from_sim no)
@@ -2530,7 +2264,7 @@
 		)
 		(uuid "f7dff363-2a54-4c3f-9f68-54f764ee531f")
 	)
-	(text_box "J16:2"
+	(text_box "J21"
 		(exclude_from_sim no)
 		(at 69.85 86.36 0)
 		(size 15.24 3.81)
@@ -2548,9 +2282,9 @@
 		)
 		(uuid "fb45291e-6de0-4f47-95ce-d26e9c686acb")
 	)
-	(text_box "J5"
+	(text_box "J6\n"
 		(exclude_from_sim no)
-		(at 69.85 143.51 0)
+		(at 70.485 116.84 0)
 		(size 15.24 3.81)
 		(stroke
 			(width 0)
@@ -2571,6 +2305,7 @@
 		(at 111.76 73.66 0)
 		(effects
 			(font
+				(face "GOST Common")
 				(size 2.5 2.5)
 			)
 			(justify left bottom)
@@ -2582,6 +2317,7 @@
 		(at 165.1 43.18 0)
 		(effects
 			(font
+				(face "GOST Common")
 				(size 2.5 2.5)
 			)
 			(justify left bottom)
@@ -2590,7 +2326,7 @@
 	)
 	(text "x"
 		(exclude_from_sim no)
-		(at 91.44 153.67 0)
+		(at 92.075 127 0)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -2615,28 +2351,19 @@
 		(at 233.68 43.18 0)
 		(effects
 			(font
+				(face "GOST Common")
 				(size 2.5 2.5)
 			)
 			(justify left bottom)
 		)
 		(uuid "20fa7738-683c-4e2b-b1fe-c80ebb7c8a1e")
 	)
-	(text "Датчик температуры C"
-		(exclude_from_sim no)
-		(at 111.76 104.14 0)
-		(effects
-			(font
-				(size 2.5 2.5)
-			)
-			(justify left bottom)
-		)
-		(uuid "290faa6a-765b-4e0f-9139-bc9058836692")
-	)
 	(text "Датчик температуры А"
 		(exclude_from_sim no)
 		(at 111.76 43.18 0)
 		(effects
 			(font
+				(face "GOST Common")
 				(size 2.5 2.5)
 			)
 			(justify left bottom)
@@ -2654,20 +2381,9 @@
 		)
 		(uuid "427008b6-f34a-48a3-ab10-cd55296a6224")
 	)
-	(text "1. Провода х распаиваются на плате в разъёмы J5, J6, J7, J15, J17, J18."
-		(exclude_from_sim no)
-		(at 106.68 182.88 0)
-		(effects
-			(font
-				(size 3.5 3.5)
-			)
-			(justify left bottom)
-		)
-		(uuid "45217540-9629-4a19-a518-d2fb05e4f620")
-	)
 	(text "A4"
 		(exclude_from_sim no)
-		(at 48.26 128.27 0)
+		(at 48.895 101.6 0)
 		(effects
 			(font
 				(size 3.5 3.5)
@@ -2678,7 +2394,7 @@
 	)
 	(text "x"
 		(exclude_from_sim no)
-		(at 91.44 161.29 0)
+		(at 92.075 134.62 0)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -2692,6 +2408,7 @@
 		(at 33.02 43.18 0)
 		(effects
 			(font
+				(face "GOST Common")
 				(size 2.5 2.5)
 			)
 			(justify left bottom)
@@ -2703,6 +2420,7 @@
 		(at 233.68 82.55 0)
 		(effects
 			(font
+				(face "GOST Common")
 				(size 2.5 2.5)
 			)
 			(justify left bottom)
@@ -2720,20 +2438,9 @@
 		)
 		(uuid "79ddadad-c13b-497c-a799-8600da710d8d")
 	)
-	(text "A4"
-		(exclude_from_sim no)
-		(at 48.26 97.79 0)
-		(effects
-			(font
-				(size 3.5 3.5)
-			)
-			(justify left bottom)
-		)
-		(uuid "811f06ed-29c4-449b-b054-7efb2a08cf45")
-	)
 	(text "x"
 		(exclude_from_sim no)
-		(at 91.44 165.1 0)
+		(at 92.075 138.43 0)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -2747,6 +2454,7 @@
 		(at 165.1 82.55 0)
 		(effects
 			(font
+				(face "GOST Common")
 				(size 2.5 2.5)
 			)
 			(justify left bottom)
@@ -2755,9 +2463,10 @@
 	)
 	(text "Электродвигатель"
 		(exclude_from_sim no)
-		(at 119.38 133.35 0)
+		(at 120.015 106.68 0)
 		(effects
 			(font
+				(face "GOST Common")
 				(size 2.5 2.5)
 			)
 			(justify left bottom)
@@ -2766,7 +2475,7 @@
 	)
 	(text "x"
 		(exclude_from_sim no)
-		(at 91.44 146.05 0)
+		(at 92.075 119.38 0)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -2791,6 +2500,7 @@
 		(at 33.02 73.66 0)
 		(effects
 			(font
+				(face "GOST Common")
 				(size 2.5 2.5)
 			)
 			(justify left bottom)
@@ -2799,7 +2509,7 @@
 	)
 	(text "x"
 		(exclude_from_sim no)
-		(at 91.44 157.48 0)
+		(at 92.075 130.81 0)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -2810,7 +2520,7 @@
 	)
 	(text "x"
 		(exclude_from_sim no)
-		(at 91.44 149.86 0)
+		(at 92.075 123.19 0)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -2821,25 +2531,15 @@
 	)
 	(text "Соединительная часть"
 		(exclude_from_sim no)
-		(at 33.02 134.62 0)
+		(at 33.655 107.95 0)
 		(effects
 			(font
+				(face "GOST Common")
 				(size 2.5 2.5)
 			)
 			(justify left bottom)
 		)
 		(uuid "bc877071-0f88-417a-b415-b6395f2f3a8a")
-	)
-	(text "Соединительная часть"
-		(exclude_from_sim no)
-		(at 33.02 104.14 0)
-		(effects
-			(font
-				(size 2.5 2.5)
-			)
-			(justify left bottom)
-		)
-		(uuid "c6dc78ef-7015-4f14-80a9-4f8567c94c3c")
 	)
 	(text "A4"
 		(exclude_from_sim no)
